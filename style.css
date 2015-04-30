@@ -1,0 +1,71 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  font-size: 1.3em;
+  color:rgba(105, 105, 105, 1);
+}
+
+form{
+  position:absolute;
+  left: 10%;
+  top: 40%;
+  width: 74%;
+  height: 110px;
+  padding: 20px 35px;
+}
+
+input {
+  border-radius: 7px;
+  border: 2px solid rgba(105, 105, 105, .15);
+}
+
+input[type=email], input[type=password] {
+  display: inline-block;
+  width: 250px;
+  height: 70px;
+  margin-right: 10px;
+  padding: 5px 15px;
+}
+
+/* placeholder */
+::-webkit-input-placeholder {
+   color: rgba(105,105, 105, 1);
+   text-transform: uppercase;
+   font-size: 1.2em;
+   letter-spacing: .17em;
+   font-weight: bold;
+}
+
+:-moz-placeholder {  color: white;}/* Firefox 18- */
+
+::-moz-placeholder {    color: white;} /* Firefox 19+ */
+
+:-ms-input-placeholder {color: white;}
+
+input[type=checkbox] {
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  margin-left: 15px;
+  margin-right: 10px;
+  }
+
+input[type=submit], input[type=button] {
+  -webkit-appearance: none;
+  width: 120px;
+  height: 70px;
+  margin-left: 10px;
+  background: rgba(180, 194, 202, 1);
+  color: white;
+  font-size: .8em;
+  letter-spacing: .17em;
+  cursor: pointer;
+}
+
+input[type=submit] {
+  margin-left:20px;
+  background: rgba(39, 144, 233, 1);
+}
